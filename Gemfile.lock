@@ -34,13 +34,14 @@ GEM
       librarian (>= 0.1.2)
       open3_backport
     metaclass (0.0.4)
-    mini_portile2 (2.4.0)
+    mini_portile2 (2.8.0)
     mocha (1.0.0)
       metaclass (~> 0.0.1)
     multipart-post (2.0.0)
     net-ssh (2.8.0)
-    nokogiri (1.10.9)
-      mini_portile2 (~> 2.4.0)
+    nokogiri (1.13.9)
+      mini_portile2 (~> 2.8.0)
+      racc (~> 1.4)
     octokit (2.7.2)
       sawyer (~> 0.5.2)
     open3_backport (0.0.3)
@@ -56,6 +57,7 @@ GEM
       rake
       rspec (>= 2.9.0)
       rspec-puppet (>= 0.1.1)
+    racc (1.6.0)
     rake (10.1.1)
     rbvmomi (1.8.1)
       builder
